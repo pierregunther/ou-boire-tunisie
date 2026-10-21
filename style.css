@@ -1,0 +1,23 @@
+:root{--fg:#1a1a1a;--bg:#fbfaf7;--line:#d9d6cf;--muted:#5a5a55;--accent:#8a1c2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 Georgia,"Times New Roman",serif}
+header,main{max-width:46rem;margin:0 auto;padding:0 1rem}
+h1{font-size:clamp(2rem,8vw,3.2rem);line-height:1.1;margin:2rem 0 1rem;letter-spacing:-.02em}
+.intro{margin:0 0 2rem}
+#map{height:60vh;min-height:320px;border:1px solid var(--line);background:#eee}
+#map-status{font:.9rem/1.4 system-ui,sans-serif;color:var(--muted);margin:.5rem 0 2rem}
+#map-status:empty{display:none}
+#demo-banner{border:1px solid var(--accent);color:var(--accent);padding:.5rem .75rem;font:.9rem system-ui,sans-serif}
+h2{font-size:1.5rem;margin:2.5rem 0 .5rem;border-bottom:1px solid var(--fg);padding-bottom:.25rem}
+h3{font:600 .85rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin:1.5rem 0 .25rem}
+ul{list-style:none;margin:0;padding:0}
+li{border-bottom:1px solid var(--line)}
+.place{display:block;width:100%;min-height:44px;padding:.75rem 0;text-align:left;font:inherit;color:inherit;background:none;border:0}
+button.place{cursor:pointer}
+button.place:hover .name{color:var(--accent)}
+button.place:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.name{display:block;font-weight:700}
+.addr,.comment{display:block;font-size:.95rem;color:var(--muted)}
+.comment{font-style:italic}
+.leaflet-popup-content{font:15px/1.4 system-ui,sans-serif}
+.leaflet-popup-content p{margin:.3rem 0 0}

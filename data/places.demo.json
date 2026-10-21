@@ -1,0 +1,6 @@
+[
+  {"id":"demo-1","name":"[FICTIF] Bar Exemple","address":"1 rue Fictive","city":"Tunis","neighborhood":"Quartier Exemple","comment":"Donnée de démonstration, lieu inexistant.","latitude":36.80,"longitude":10.18},
+  {"id":"demo-2","name":"[FICTIF] Café Test","address":"2 avenue Imaginaire","city":"Tunis","comment":"Fictif, sans quartier.","latitude":36.81,"longitude":10.17},
+  {"id":"demo-3","name":"[FICTIF] Restaurant Sans Coordonnées","address":"3 rue Inventée","city":"Sousse","comment":"Fictif, sans marqueur."},
+  {"id":"demo-4","name":"[FICTIF] Bar Démo","city":"Sfax","latitude":34.74,"longitude":10.76}
+]
