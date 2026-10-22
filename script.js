@@ -140,3 +140,55 @@
       statusEl.textContent = 'La carte est indisponible car les données n’ont pas pu être chargées.';
     });
 })();
+
+(function () {
+  'use strict';
+  var form = document.getElementById('add-form');
+  if (!form) return;
+  var ta = document.getElementById('add-text');
+  var hp = document.getElementById('add-hp');
+  var btn = form.querySelector('button');
+  var msg = document.getElementById('add-status');
+  var box = document.getElementById('comments');
+
+  function note(text) {
+    box.textContent = '';
+    if (text) { var li = document.createElement('li'); li.textContent = text; box.appendChild(li); }
+  }
+  function load() {
+    fetch('/api/comments')
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) {
+        box.textContent = '';
+        d.items.forEach(function (c) {
+          var li = document.createElement('li');
+          var p = document.createElement('p'); p.textContent = c.t;
+          var s = document.createElement('span'); s.className = 'c-date';
+          s.textContent = new Date(c.d).toLocaleDateString('fr-FR');
+          li.appendChild(p); li.appendChild(s); box.appendChild(li);
+        });
+      })
+      .catch(function () { note('Les messages ne sont pas disponibles pour le moment.'); });
+  }
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    msg.textContent = ''; btn.disabled = true;
+    fetch('/api/comments', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: ta.value, website: hp.value })
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (d) { return { s: r.status, d: d }; });
+    }).then(function (x) {
+      if (x.s === 200 || x.s === 201) { ta.value = ''; msg.textContent = 'Merci, ton message est publié.'; load(); return; }
+      var t = 'L’envoi a échoué. Réessaie plus tard.';
+      if (x.d.error === 'length') t = 'Écris au moins quelques mots (500 caractères maximum).';
+      else if (x.d.error === 'links') t = 'Les liens ne sont pas acceptés.';
+      else if (x.s === 429) t = 'Trop de messages envoyés. Réessaie dans une heure.';
+      msg.textContent = t;
+    }).catch(function () {
+      msg.textContent = 'L’envoi a échoué. Vérifie ta connexion.';
+    }).then(function () { btn.disabled = false; });
+  });
+  load();
+})();

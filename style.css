@@ -21,3 +21,19 @@ button.place:focus-visible,a:focus-visible{outline:3px solid var(--accent);outli
 .comment{font-style:italic}
 .leaflet-popup-content{font:15px/1.4 system-ui,sans-serif}
 .leaflet-popup-content p{margin:.3rem 0 0}
+
+#add-form{margin-top:1rem}
+textarea{display:block;width:100%;font:inherit;padding:.75rem;border:1px solid var(--fg);background:#fff;color:var(--fg);border-radius:0;resize:vertical}
+textarea::placeholder{color:#767670}
+textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+form button{min-height:44px;margin-top:.75rem;padding:0 1.5rem;font:600 1rem system-ui,sans-serif;color:#fff;background:var(--fg);border:0;cursor:pointer}
+form button:hover{background:var(--accent)}
+form button:disabled{opacity:.5;cursor:wait}
+form button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+#add-status,.note{font:.9rem/1.4 system-ui,sans-serif;color:var(--muted);margin:.75rem 0}
+#add-status:empty{display:none}
+#comments{margin:1.5rem 0 4rem}
+#comments li{padding:.75rem 0}
+#comments p{margin:0;overflow-wrap:anywhere}
+.c-date{font:.8rem system-ui,sans-serif;color:var(--muted)}

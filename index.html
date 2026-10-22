@@ -23,6 +23,17 @@
 <section aria-label="Liste des établissements">
 <div id="list"><p>Chargement de la liste…</p></div>
 </section>
+<section id="add" aria-labelledby="add-title">
+<h2 id="add-title">Ajoute ton lieu</h2>
+<form id="add-form">
+<textarea id="add-text" name="text" rows="4" maxlength="500" required placeholder="Nom du lieu, adresse, commentaire" aria-label="Ajoute ton lieu : nom du lieu, adresse, commentaire"></textarea>
+<div class="hp" aria-hidden="true"><input type="text" id="add-hp" name="website" tabindex="-1" autocomplete="off"></div>
+<button type="submit">Publier</button>
+<p id="add-status" role="status"></p>
+</form>
+<p class="note">Les messages sont publics et s’affichent immédiatement. Pas de liens, 500 caractères maximum.</p>
+<ul id="comments"></ul>
+</section>
 </main>
 </body>
 </html>
