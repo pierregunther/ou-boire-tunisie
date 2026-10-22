@@ -1,0 +1,302 @@
+[
+  {
+    "id": "chak-wak-restaurant-et-bar-tozeur",
+    "name": "Chak-Wak Restaurant et Bar",
+    "address": "Route des Touaregs, 2200 Tozeur (Plus Code W46W+478)",
+    "city": "Tozeur",
+    "comment": "Des dinosaures en plein désert, des palmiers et un verre à la main. Un lieu marrant et incongru.",
+    "status": "partial",
+    "latitude": 33.91137003915744,
+    "longitude": 8.144872824727575
+  },
+  {
+    "id": "the-palm-garden-bizerte",
+    "name": "The Palm Garden",
+    "city": "Bizerte",
+    "comment": "Un peu glauque sur les bords, mais parfois, c’est justement là que l’apéro prend une tournure intéressante.",
+    "status": "to_verify",
+    "latitude": 37.27956155077985,
+    "longitude": 9.881194324895567
+  },
+  {
+    "id": "rose-and-crown-pub-sousse",
+    "name": "Rose and Crown Pub",
+    "address": "Sousse 4000 (Plus Code RJRG+GV3)",
+    "city": "Sousse",
+    "comment": "Dans le centre commercial abandonné à Sousse.",
+    "status": "partial",
+    "latitude": 35.841376036572235,
+    "longitude": 10.627219182493963
+  },
+  {
+    "id": "cafe-bar-paris-sousse",
+    "name": "Café Bar Paris",
+    "city": "Sousse",
+    "status": "to_verify",
+    "latitude": 35.831830041667935,
+    "longitude": 10.640562895985818
+  },
+  {
+    "id": "the-roots-bar-sousse",
+    "name": "The Roots Bar",
+    "address": "Bd de la Corniche, Sousse",
+    "city": "Sousse",
+    "status": "to_verify",
+    "latitude": 35.83554114911589,
+    "longitude": 10.636545980642353
+  },
+  {
+    "id": "restaurant-neptune-mahdia",
+    "name": "Restaurant Neptune",
+    "address": "Intersection de l’avenue du 14-Janvier, 5100 Mahdia",
+    "city": "Mahdia",
+    "comment": "Un peu glauque sur les bord, c'est ça qu'on aime. Dans le bar au rdc. Sinon terrasse sympa pour dîner.",
+    "status": "partial",
+    "latitude": 35.50577148259851,
+    "longitude": 11.064291182477211
+  },
+  {
+    "id": "au-bon-vieux-temps-sidi-bou-said",
+    "name": "Au Bon Vieux Temps",
+    "address": "56 rue Hédi Zarrouk, 2026 Sidi Bou Saïd",
+    "city": "Sidi Bou Saïd",
+    "comment": "Un peu chic et vieux jeu, surtout pour du vin.",
+    "status": "partial",
+    "latitude": 36.87105391403802,
+    "longitude": 10.350012282546334
+  },
+  {
+    "id": "hotel-sidi-bou-said-sidi-bou-said",
+    "name": "Hôtel Sidi Bou Saïd",
+    "city": "Sidi Bou Saïd",
+    "comment": "Super terrasse.",
+    "status": "to_verify",
+    "latitude": 36.877439353689304,
+    "longitude": 10.34303853915329
+  },
+  {
+    "id": "au-bon-vieux-temps-la-marsa",
+    "name": "Au Bon Vieux Temps",
+    "address": "1 rue Abou Kacem Chebbi, 2078 La Marsa",
+    "city": "La Marsa",
+    "comment": "Une pinte dans l'entrée un peu moche, ou un plat italien et un verre de vin en terrasse.",
+    "status": "partial",
+    "latitude": 36.88337972254035,
+    "longitude": 10.333691963170287
+  },
+  {
+    "id": "dar-el-marsa-rooftop-la-marsa",
+    "name": "Dar El Marsa — rooftop",
+    "address": "75 avenue Habib Bourguiba, 2078 La Marsa",
+    "city": "La Marsa",
+    "comment": "Prendre de la hauteur, commander un verre et regarder la mer d’en haut. Ca fait genre d'être chic mais si t'es Blanc tu rentres sans pb.",
+    "status": "partial",
+    "latitude": 36.88416883446327,
+    "longitude": 10.332077855125954
+  },
+  {
+    "id": "alma-la-marsa",
+    "name": "Alma",
+    "address": "Complexe Le Relais, La Marsa",
+    "city": "La Marsa",
+    "comment": "Une adresse pour boire un verre du côté de La Marsa, au bord de l'autoroute, si t'as pas peur des décibels.",
+    "status": "partial",
+    "latitude": 36.871516361672256,
+    "longitude": 10.31107533836678
+  },
+  {
+    "id": "le-golfe-la-marsa",
+    "name": "Le Golfe",
+    "address": "5 rue Arbi Zarrouk, Sidi Abdelaziz, 2078 La Marsa",
+    "city": "La Marsa",
+    "comment": "Une table chic, du poulpe qui mérite le détour et un verre pour accompagner tout ça..",
+    "status": "partial",
+    "latitude": 36.890912563541505,
+    "longitude": 10.32390546720368
+  },
+  {
+    "id": "molo-gammarth",
+    "name": "Molo",
+    "address": "Complexe Le Cap, Gammarth, 1057",
+    "city": "Gammarth",
+    "comment": "Tapas, cocktails et dj sets ambiance bohème un peu déjà vue.  Un peu trop de chemises blanches et de botox.",
+    "status": "partial",
+    "latitude": 36.92054487458079,
+    "longitude": 10.28915955371293
+  },
+  {
+    "id": "flo-tunis-gammarth",
+    "name": "flō Tunis",
+    "address": "Complexe Trinidad, Gammarth",
+    "city": "Gammarth",
+    "status": "partial",
+    "latitude": 36.92622472535822,
+    "longitude": 10.272262728878557
+  },
+  {
+    "id": "four-seasons-hotel-tunis-gammarth",
+    "name": "Four Seasons Hotel Tunis",
+    "address": "Zone touristique de Cap Gammarth, 1057 La Marsa",
+    "city": "Gammarth",
+    "status": "partial"
+  },
+  {
+    "id": "tangerine-rooftop-gammarth",
+    "name": "Tangerine Rooftop",
+    "address": "28 avenue Habib Bourguiba, Gammarth (Plus Code W7CQ+4X7)",
+    "city": "Gammarth",
+    "comment": "Rooftop branché un peu insupp mais sympa pour les photos insta.",
+    "status": "partial",
+    "latitude": 36.920197090164,
+    "longitude": 10.29020119120137
+  },
+  {
+    "id": "sama-tunis-tunis",
+    "name": "Sama Tunis",
+    "address": "7ème étage, Hôtel Le Pacha, Tunis 1002",
+    "city": "Tunis",
+    "comment": "Un rooftop avec de super cocktails inventifs, imaginés par Kodass, le meilleur barman de Tunis.",
+    "status": "partial",
+    "latitude": 36.818763182040975,
+    "longitude": 10.183580767200025
+  },
+  {
+    "id": "la-petite-etoile-la-goulette",
+    "name": "La Petite Étoile",
+    "address": "Port de La Goulette, 2060",
+    "city": "La Goulette",
+    "comment": "Une des seules terrasses où l’on peut boire de l’alcool en extérieur, avec vue sur le port.",
+    "status": "partial",
+    "latitude": 36.8089438001073,
+    "longitude": 10.306447882543116
+  },
+  {
+    "id": "wet-flamingo-la-goulette",
+    "name": "Wet Flamingo",
+    "address": "126 avenue de la République, 2060 La Goulette",
+    "city": "La Goulette",
+    "comment": "Bar jeune et sympa.",
+    "status": "partial",
+    "latitude": 36.82229920475867,
+    "longitude": 10.311071884355382
+  },
+  {
+    "id": "l-oiseau-bleu-la-goulette",
+    "name": "L’Oiseau Bleu",
+    "city": "La Goulette",
+    "comment": "Des serveurs bizarre mais boire une bière en terrasse c'est cool, et le poisson est correct.",
+    "status": "to_verify",
+    "latitude": 36.829342317705645,
+    "longitude": 10.31678812276406
+  },
+  {
+    "id": "l-amphitrite",
+    "name": "L’Amphitrite",
+    "city": "Sidi Bou Saïd",
+    "comment": "Pour une Celtia après la baignade.",
+    "status": "to_verify",
+    "latitude": 36.86238906146985,
+    "longitude": 10.340428975393868,
+    "address": "Plage Amilcar"
+  },
+  {
+    "id": "restaurant-neptune-tunis",
+    "name": "Restaurant Neptune",
+    "address": "13 Rue Ibn Chabat, Site archéologique de Carthage 2016",
+    "city": "Tunis",
+    "comment": "Terrasse face à la mer, faut pas être pressé (comme partout) mais c'est beau.",
+    "status": "partial",
+    "latitude": 36.84993522653645,
+    "longitude": 10.331116406509503
+  },
+  {
+    "id": "hotel-majestic-bar-le-piano-tunis",
+    "name": "Hôtel Majestic — Bar Le Piano",
+    "address": "36 avenue de Paris, 1000 Tunis",
+    "city": "Tunis",
+    "comment": "Une jolie terrasse face au parc.",
+    "status": "partial",
+    "latitude": 36.804430028515974,
+    "longitude": 10.180608684394231
+  },
+  {
+    "id": "el-firma-la-soukra",
+    "name": "El Firma",
+    "address": "58 rue des Fruits, Choutrana III, La Soukra",
+    "city": "La Soukra",
+    "comment": "Une ancienne ferme devenue adresse chic, une carte des vins et une ambiance lounge. Faut juste se taper 40 mn de taxi pour se perdre dans la cambrousse et avoir envie de participer à des soirées blanches",
+    "status": "partial",
+    "latitude": 36.885215543352,
+    "longitude": 10.245822224875235
+  },
+  {
+    "id": "habibi-downtown-rooftop-tunis",
+    "name": "Habibi Downtown Rooftop",
+    "address": "Centre-ville",
+    "city": "Tunis",
+    "comment": "Un rooftop en centre-ville pour prendre de la hauteur et se murger sans que personne ne voie.",
+    "status": "to_verify",
+    "latitude": 36.80025641734414,
+    "longitude": 10.181285228573543
+  },
+  {
+    "id": "la-petite-hutte-tunis",
+    "name": "La Petite Hutte",
+    "address": "102 rue de Serbie, 1000 Tunis",
+    "city": "Tunis",
+    "comment": "Un peu cracra sur les bords mais c'est sympa le fenouil en snack avec une bière.",
+    "status": "partial",
+    "latitude": 36.79835780785602,
+    "longitude": 10.182079162430759
+  },
+  {
+    "id": "cafe-de-paris-tunis",
+    "name": "Café de Paris",
+    "address": "Avenue Habib Bourguiba, Tunis",
+    "city": "Tunis",
+    "comment": "Ca ressemble plutôt à un diner américain mais ils servent du vin et leurs pâtes aux fruits de mer sont top.",
+    "status": "partial",
+    "latitude": 36.79944886973912,
+    "longitude": 10.181714382009876
+  },
+  {
+    "id": "circolo-italiano-di-tunisi-tunis",
+    "name": "Circolo Italiano di Tunisi",
+    "address": "Avenue de la Liberté, Tunis 1002",
+    "city": "Tunis",
+    "comment": "Pas un seul Italien à l'horizon, mais un drapeau. Un peu délabré sur les bords mais on a l'impression de boire un coup dans l'immeuble de la Castafiore qui aurait subit un tremblemant de terre.",
+    "status": "partial",
+    "latitude": 36.81544577605534,
+    "longitude": 10.178730361366137
+  },
+  {
+    "id": "zoobar-tunis",
+    "name": "Zoobar",
+    "address": "75 Avenue Taieb M'Hiri, Tunis 1002",
+    "city": "Tunis",
+    "comment": "Super vue sur un parc, plein de Celtia, beau coucher de soleil, un peu claqué mais pas trop.",
+    "status": "to_verify",
+    "latitude": 36.81740408463399,
+    "longitude": 10.176606051856288
+  },
+  {
+    "id": "bellini-citybar-lounge-tunis",
+    "address": "Les jardins de l’hôtel Golden Tulip El Mechtel, Avenue Ouled Hafouz Tunis, Tunisie, 1005",
+    "name": "Bellini Citybar Lounge",
+    "city": "Tunis",
+    "comment": "C'est là où les expats se donnent rdv pour fêter leur départ, donc ça doit être de la merde.",
+    "status": "to_verify",
+    "latitude": 36.813390318322526,
+    "longitude": 10.17452152487147
+  },
+  {
+    "id": "restaurant-bolero-tunis",
+    "name": "Restaurant Bolero",
+    "address": "6 passage del guettar, Centre-ville",
+    "city": "Tunis",
+    "comment": "Super bon, que des mecs, faut braver l'envie de fuit en courant, puis on est trop bien.",
+    "status": "to_verify",
+    "latitude": 36.798321321034734,
+    "longitude": 10.182220682542596
+  }
+]
